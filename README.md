@@ -4,7 +4,7 @@ Exercícios das aulas do curso "Desenvolvedor Web Full Stack Java" da Digital Ho
 
 DATA: 13/07/2020 até 25/11/2020
 
-OBJETIVO: Capacitar o desenvolvimento de aplicações em linguagem JAVA em conjunto com o framework Spring.
+OBJETIVO: Capacitar o desenvolvimento de aplicações em linguagem JAVA conjuntamente com o framework Spring.
 
 MÓDULOS:
 
