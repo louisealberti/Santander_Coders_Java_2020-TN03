@@ -1,0 +1,77 @@
+body{
+    font-family: sans-serif;
+    background-image: url(../images/background.png);
+}
+
+.logo img{
+    z-index: 1;
+    position: absolute; 
+    left: 180px;
+    top: 50px;
+}
+
+.nav-menu{
+    background-color: #F24927;
+    position: absolute;
+    width: 960px;
+    height: 50px;
+    top: 100px;
+    left: 240px;
+}
+
+.nav-menu a{
+    position: relative;
+    float: left;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    left: 80px;
+    padding: 10px;
+    bottom: 10px;
+}
+
+.container {
+    position: absolute;
+    background-color: #ffffff;
+    width: 960px;
+    left: 240px;
+    top: 250px;
+}
+
+.container a {
+    position: absolute;
+    text-decoration: none;
+    background-color:#FF000F;
+    color: #ffffff;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    bottom: 20px;
+    left: 100px;
+}
+
+.column {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    align-items: center;
+}
+
+h2{
+    position: absolute;
+    width: 300px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.2em;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.4);
+    bottom: 60px;
+}
+
+.shop-tag{
+    position: absolute;
+    left: 230px;
+}

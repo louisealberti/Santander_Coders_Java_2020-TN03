@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    border: #000000 solid 5px;
+}
+
+.caixaa{
+    width: 20.83%;
+    border: #992b7d solid 5px;
+    background-color: rgba(216, 103, 207, .5);
+}
+
+.caixab{
+    width: 66.67%;
+    border:#569956 solid 5px;
+    background-color: rgba(135, 180, 106, .5);
+}
+
+.caixac{
+    width: 8.33%;
+    border:#335486 solid 5px;
+    background-color:rgba(128, 139, 240, .5);
+}
+
+header{
+    width: 100vw;
+    height: 20vh;
+    border: rgb(89, 158, 89) solid 5px;
+    background-color: rgb(128, 119, 167);
+}
+
+h2{
+    font-size: 1.75em;
+}
+
+p{
+    font-size: 0.8125em;
+}
+
+strong{
+    font-size: 1.1538461538461537em;
+}
+
+@media (max-width: 900px) {
+    /* regras de CSS */
+
+    .container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .caixaa {
+        width: 40%;
+        float: left;
+    }
+
+    .caixab {
+        width: 55%;
+        float: right;
+    }
+
+    .caixac {
+        width: 100%;
+        float: unset;
+    }
+}
+
+@media (max-width: 450px) {
+    /* regras de CSS */
+
+    body {
+        font-size: 1.3em;
+    }
+
+    .caixaa {
+        width:100%;
+        float: none;
+    }
+
+    .caixab {
+        width: 100%;
+        float: none;
+    }
+
+    .caixac {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media (max-width: 760px) and (orientation: portrait) {
+    /* regras de CSS */
+}

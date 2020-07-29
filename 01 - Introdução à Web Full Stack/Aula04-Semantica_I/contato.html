@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Formulário de Contato</title>
+</head>
+<body>
+
+    <ul type="none">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="hobbies.html">Passatempos</a></li>
+    </ul>
+
+    <form action="" method="POST">
+        <label for="nome">Nome e Sobrenome: </label>
+        <input type="text" name="Nome e Sobrenome" id="nome" placeholder="Maria Silva" value="" required/><br />
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" placeholder="user@email.com" required/><br />
+        <label for="assunto">Assunto: </label>
+        <select name="assunto" id="assunto">
+            <option value="Du">Dúvida</option>
+            <option value="El">Elogio</option>
+            <option value="Re">Reclamação</option>
+            <option value="Ou">Outros</option>
+        </select><br />
+        <label>Gênero</label><br />
+        <input type="radio" name="genero" id="feminino" value="feminino"/>
+        <label for="feminino">Feminino</label>
+        <input type="radio" name="genero" id="masculino" value="masculino"/>
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="desconnhecido" value="prefiro não responder"/>
+        <label for="desconnhecido">Prefiro não responder</label><br />
+        <label>Passatempos</label><br />
+        <input type="checkbox" name="hobbies" id="boxe" value="boxe"/>
+        <label for="boxe">Boxe</label>
+        <input type="checkbox" name="hobbies" id="futebol" value="futebol"/>
+        <label for="futebol">Futebol</label>
+        <input type="checkbox" name="hobbies" id="basquete" value="basquete"/>
+        <label for="basquete">Basquete</label>
+        <input type="checkbox" name="hobbies" id="ler" value="ler"/>
+        <label for="ler">Ler</label>
+        <input type="checkbox" name="hobbies" id="filmes-series" value="filmes-series"/>
+        <label for="filmes-series">Assistir filmes e séries</label><br />
+        <input type="checkbox" name="hobbies" id="xadrez" value="xadrez"/>
+        <label for="xadrez">Xadrez</label>
+        <input type="checkbox" name="hobbies" id="fotografia" value="fotografia"/>
+        <label for="fotografia">Fotografia</label>
+        <input type="checkbox" name="hobbies" id="desenhar" value="desenhar"/>
+        <label for="desenhar">Desenhar</label>
+        <input type="checkbox" name="hobbies" id="artesanato" value="artesanato"/>
+        <label for="artesanato">Artesanato</label>
+        <input type="checkbox" name="hobbies" id="viajar" value="viajar"/>
+        <label for="viajar">Viajar</label><br /><br />
+        <label for="comentarios">Comentarios: </label>
+        <textarea name="comentarios" id="comentarios" required></textarea><br />
+        <button type="submit">Enviar</button>
+        <button type="reset">Apagar</button>
+    </form>
+
+</body>
+</html>

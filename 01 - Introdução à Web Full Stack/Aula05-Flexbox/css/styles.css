@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../images/bg-body.png);
+    margin-bottom: 0;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    text-align: justify;
+}
+
+.container {
+    margin: 0 auto;
+}
+.main-header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+}
+
+.main-nav {
+    width: 1100px;
+    margin: auto;
+}
+
+.main-nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.main-nav li {
+    width: 15%;
+    padding: 7px;
+    margin-bottom: 15px;
+    background-color: #444444;
+    text-align: center;
+}
+
+.main-nav li:last-child {
+    margin-right: 0;
+}
+
+.main-nav a {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.banner {
+    width: 1100px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.main-products {
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.photo-container {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.photo {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 101%;
+}
+
+.badge {
+    position: absolute;
+    top: 0px;
+    left: 270px;
+}
+
+.zoom {
+    position: absolute;
+    width: 354px;
+    text-align: center;
+    top: 80px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.product {
+    width: 350px;
+}
+
+.more {
+    padding: 5px 10px;
+    background-color: #444444;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.main-footer {
+    background-color: #d50000;
+    width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 50px 27%;
+}
+
+.main-footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -100px;
+}
+
+.main-footer a {
+    color: #ffffff;
+    text-transform: capitalize;
+    padding-right: 11px;
+    padding-left: 11px;
+
+
+}
+
+.main-footer li::after {
+    color: #ffffff;
+    content: "|";
+}
+
+.main-footer li:last-child::after {
+    content: none;
+  }
