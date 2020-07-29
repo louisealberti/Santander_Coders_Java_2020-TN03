@@ -1,8 +1,8 @@
 # Santander_Coders_Java_2020-TN03
 
-Exercícios das aulas da curso "Desenvolvedor Web Full Stack Java" da Digital House.
+Exercícios das aulas do curso "Desenvolvedor Web Full Stack Java" da Digital House.
 
-DATA: de 13/07/2020 até 25/11/2020
+DATA: 13/07/2020 até 25/11/2020
 
 OBJETIVO: Capacitar o desenvolvimento de aplicações em linguagem JAVA em conjunto com o framework Spring.
 
