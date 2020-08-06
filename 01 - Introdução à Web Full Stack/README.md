@@ -13,3 +13,13 @@
 - 24/07/2020 - Aula 6 - Bootstrap e Revisão
 
 - 27/07/2020 - Aula 7 - GIT e Introdução a JS
+
+- 29/07/2020 - Aula 8 - Funções Javascript 
+
+- 31/07/2020 - Aula 9 - DOM e Eventos
+
+- 03/08/2020 - Aula 10 - Formulários e AJAX
+
+- 05/08/2020 - Aula 11 - Jquery
+
+- 07/08/2020 - Aula 12 - SPA
