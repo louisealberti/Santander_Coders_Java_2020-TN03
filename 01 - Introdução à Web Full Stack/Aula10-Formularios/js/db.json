@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "name": "Ada",
+      "lastname": "Lovelace",
+      "email": "adalovelace@mail.com",
+      "password": "Aa5#aaaaa",
+      "gender": "feminino",
+      "newsletter": "Não",
+      "id": 1
+    },
+    {
+      "name": "Alan",
+      "lastname": "Turing",
+      "email": "turing@mail.com",
+      "password": "*T7aaaaa",
+      "gender": "masculino",
+      "newsletter": "Sim",
+      "id": 2
+    },
+    {
+      "name": "Margaret",
+      "lastname": "Hamilton",
+      "email": "hamiltonm@mail.com",
+      "password": "mH1936#<3",
+      "gender": "feminino",
+      "newsletter": "Sim",
+      "id": 3
+    }
+  ]
+}

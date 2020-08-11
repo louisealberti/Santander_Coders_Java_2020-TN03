@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+
+    <!-- Ajax -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Aula 10 - Formulários - Exercício 01</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark bg-dark mb-5">
+        <div class="container">
+            <span class="navbar-brand mb-0 h1">Exercício 03</span>
+        </div>
+    </nav>
+
+    <!-- Conteúdo -->
+    <div class="container bg-light border rounded-lg no-wrap">
+
+        <div class="row">
+            <div class="col-6">
+                <div class="row my-3">
+                    <div class="col">
+                        <h2>Formulário</h2>
+                    </div>
+                </div>
+
+                <!-- Formulário Exercício #3 -->
+                <div id="innerPage">
+                    <form action="" name="form1" id="form1">
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="text" class="form-control" id="name" placeholder="Nome" value="" required>
+                            </div>
+                        </div>
+                        <div class="form-row my-2">
+                            <div class="col">
+                                <input type="text" class="form-control" id="lastname" placeholder="Sobrenome" value=""
+                                    required>
+                            </div>
+                        </div>
+                        <div class="form-row my-2">
+                            <div class="col">
+                                <input type="email" class="form-control" id="email" placeholder="e-mail" value=""
+                                    required>
+                            </div>
+                        </div>
+                        <div class="form-row my-2">
+                            <div class="col-6">
+                                <input type="password" class="form-control" id="password1" value="" placeholder="Senha"
+                                    required>
+                            </div>
+                            <div class="col-6">
+                                <input type="password" class="form-control" id="password2" value=""
+                                    placeholder="Confirmar Senha" required>
+                            </div>
+                        </div>
+                        <div class="form-row my-2">
+                            <legend class="col-form-label col-sm-2 pt-0">Gênero: </legend>
+                            <div class="col" id="radio">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="genero" id="feminino"
+                                        value="feminino">
+                                    <label class="form-check-label" for="feminino">Feminino</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="genero" id="masculino"
+                                        value="masculino">
+                                    <label class="form-check-label" for="masculino">Masculino</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="genero" id="desconhecido"
+                                        value="desconhecido">
+                                    <label class="form-check-label" for="desconhecido">Prefiro não responder</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ------------ Exercício #3c ----------- -->
+                        <div class="form-row my-2">
+                            <div class="col">
+                                <div class="form-check" id="receiveNewsletter">
+                                    <input class="form-check-input" type="checkbox" value="sim"
+                                        id="newsletter">
+                                    <label class="form-check-label" for="newsletter">
+                                        Desejo receber a newsletter.
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-dark" value="" id="submit">Enviar</button>
+                        <button type="reset" class="btn btn-dark" value="Reset" id="reset">Redefinir</button>
+                    </form><br />
+                </div>
+            </div>
+
+            <div class="col-6">
+                <img src="images/icons8-clip-993.png" class="img-fluid d-block">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
+        integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
+        crossorigin="anonymous"></script>
+
+    <!-- Javascript -->
+    <script src="js/exercicio03.js" type="text/javascript"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+</body>
+
+</html>
