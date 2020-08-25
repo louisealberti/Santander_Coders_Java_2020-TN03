@@ -1,12 +1,15 @@
 # Santander_Coders_Java_2020-TN03
 
-Exercícios das aulas do curso "Desenvolvedor Web Full Stack Java" da Digital House.
+### Description
+        Exercícios das aulas do curso "Desenvolvedor Web Full Stack Java" da Digital House.
 
-DATA: 13/07/2020 até 25/11/2020
+### Dates
+        From 13/07/2020 to 25/11/2020
 
-OBJETIVO: Capacitar o desenvolvimento de aplicações em linguagem JAVA conjuntamente com o framework Spring.
+### Goals
+        Capacitar o desenvolvimento de aplicações em linguagem JAVA conjuntamente com o framework Spring.
 
-MÓDULOS:
+### Modules
 
         1) Introdução à WEB Full Stack (42 horas)
         
@@ -20,6 +23,8 @@ MÓDULOS:
         
         6) Projeto Integrador (14 horas)
         
-TOTAL DE AULAS: 60 aulas
+### Total of Classes
+        60 classes
 
-CARGA HORÁRIA TOTAL: 210 horas
+### Workload
+        210 hours
