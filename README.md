@@ -1,4 +1,4 @@
-# Santander_Coders_Java_2020-TN03
+# Santander Coders Java - 2020
 
 ### Description
         Exercícios das aulas do curso "Desenvolvedor Web Full Stack Java" da Digital House.
