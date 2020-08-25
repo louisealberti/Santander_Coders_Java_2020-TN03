@@ -4,7 +4,7 @@
 
 - [ Aula 1 / Aula 0 ](#) - Bem-Vindos (13/07/2020)
 
-- [ Aula 2 ](#Aula02-Introducao) - HTML e CSS(15/07/2020)
+- [ Aula 2 ](Aula02-Introducao) - HTML e CSS(15/07/2020)
 
 - [ Aula 3 ](# https://tinyurl.com/yxrm8lao) - Rotas e Posicionamento (17/07/2020)
 
