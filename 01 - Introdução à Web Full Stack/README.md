@@ -4,7 +4,7 @@
 
 - [ Aula 1 / Aula 0 ](#) - Bem-Vindos (13/07/2020)
 
-- [ Aula 2 ](# https://github.com/louisealberti/Santander_Coders_Java_2020-TN03/tree/master/01%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20Web%20Full%20Stack/Aula02-Introducao) - HTML e CSS(15/07/2020)
+- [ Aula 2 ](#Aula02-Introducao) - HTML e CSS(15/07/2020)
 
 - [ Aula 3 ](# https://tinyurl.com/yxrm8lao) - Rotas e Posicionamento (17/07/2020)
 
