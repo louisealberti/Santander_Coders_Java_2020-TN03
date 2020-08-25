@@ -1,8 +1,8 @@
-# Fundamentos da Programação
+# Fundamentos de Programação
 
 ### Table of Contents
 
-- [ Aula 12 ](#)- Fundamentos da Programação (07/09/2020)
+- [ Aula 12 ](#)- Fundamentos de Programação (07/09/2020)
 
 - [ Aula 13 ](#)- Loops e Arrays (10/09/2020)
 
