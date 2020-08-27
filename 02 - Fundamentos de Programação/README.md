@@ -4,7 +4,7 @@
 
 - [ Aula 12 ](#)- Fundamentos de Programação (07/09/2020)
 
-- [ Aula 13 ](#)- Loops e Arrays (10/09/2020)
+- [ Aula 13 ](Aula13)- Loops e Arrays (10/09/2020)
 
 - [ Aula 14 ](#)- Testes e Debugs (12/09/2020)
 
